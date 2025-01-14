@@ -16,7 +16,7 @@ namespace OpenTK3_StandardTemplate_WinForms.objects
         {
             vertices = new List<Vector3>();
             colors = new List<Vector4>();
-            LoadCubeData("cube_data.txt");
+            LoadCubeData(@"..\..\cube_data.txt");
         }
 
         

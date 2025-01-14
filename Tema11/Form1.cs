@@ -181,7 +181,7 @@ namespace OpenTK3_StandardTemplate_WinForms
         private void applyTextureButton_Click(object sender, EventArgs e)
         {
             isTextureEnabled = !isTextureEnabled;
-            textureId = LoadTexture("brickTexture1.jpg");
+            textureId = LoadTexture(@"..\..\brickTexture1.jpg");
             scene.Invalidate();
         }
 
